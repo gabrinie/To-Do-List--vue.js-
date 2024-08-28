@@ -70,9 +70,9 @@ watch(todos, (newVal) => {
           <h4>Selecione uma categoria</h4>
           <select v-model="input_category">
             <option disabled value="null">Categoria</option>
-            <option value="Estudos">Estudos</option>
-            <option value="Compas">Compras</option>
-            <option value="Pessoal">Pessoal</option>
+            <option value="school">Estudos</option>
+            <option value="shop">Compras</option>
+            <option value="personal">Pessoal</option>
           </select>
         </div>
           <div>
