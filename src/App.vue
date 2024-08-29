@@ -25,6 +25,7 @@ onMounted(() => {
 
 const addTodo = () => {
   if (input_content.value.trim() === '' || input_category.value === null || input_priority.value === null) {
+  alert("Preencha todos os campos")
     return;
   }
   todos.value.push({
